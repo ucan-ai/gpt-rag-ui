@@ -1,0 +1,38 @@
+# .chainlit/config.yaml
+project_name: "SuperDoc for IronFleet"
+user_env: []
+features:
+  # Set to true to enable development features such as hot reload
+  dev_mode: false
+  # Enforce a password to enter chat. Password can be passed in via the
+  # `password` parameter or set inside the configuration file.
+  # This is NOT recommended for production.
+  password_enabled: false
+  multi_modal: true
+
+# Configure authentication providers
+oauth_providers: {}
+
+# Set up Avatars from Spark Joy library
+# Default avatar images for chatbot and default user
+ui:
+  # Name to display in the chat
+  name: "SuperDoc Assistant"
+  # Description to show at the beginning of the chat
+  description: "SuperDoc AI Assistant for IronFleet - Transform your document interactions with advanced AI-powered conversations and insights."
+  # Avatar to use in the chat for the chatbot
+  avatar: "memoji"
+  # CSS applied to the chat on the centered panel
+  css_styles: ""
+  # Page title
+  page_title: "SuperDoc for IronFleet"
+  # Theme to use for the chat
+  theme: "light"
+  # Force dark mode
+  force_dark_mode: false
+
+# Custom frontend settings
+use_frontend: true
+custom_frontend_path: custom-frontend
+# or
+#custom_frontend_url: "https://custom-url" 

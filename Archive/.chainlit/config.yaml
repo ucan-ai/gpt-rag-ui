@@ -1,0 +1,4 @@
+project_name: SuperDoc for IronFleet
+ui:
+  use_frontend: true
+  custom_frontend_path: custom-frontend 
